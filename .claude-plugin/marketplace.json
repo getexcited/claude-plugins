@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "getexcited",
+  "description": "Claude Code plugins by Stefan Trockel: agent verification, control and observability.",
+  "owner": {
+    "name": "Stefan Trockel",
+    "url": "https://github.com/getexcited"
+  },
+  "metadata": {
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "stepwarden",
+      "description": "Verifies every agent tool call before it executes. Five parallel Jev questions, three outcomes — allow, ask, block — with tunable thresholds, a per-tool skip list and a full audit trail. Installs in audit mode: it logs every decision and blocks nothing until you run /stepwarden enforce. Proof of concept on Claude Code function hooks + Jev early access.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Stefan Trockel",
+        "url": "https://github.com/getexcited"
+      },
+      "source": {
+        "source": "github",
+        "repo": "getexcited/stepwarden"
+      },
+      "homepage": "https://github.com/getexcited/stepwarden",
+      "repository": "https://github.com/getexcited/stepwarden",
+      "license": "Apache-2.0",
+      "category": "security",
+      "keywords": ["agent-verification", "guardrails", "claude-mods", "function-hooks", "jev", "typesafe"]
+    }
+  ]
+}
