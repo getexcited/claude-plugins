@@ -19,8 +19,8 @@
         "url": "https://github.com/getexcited"
       },
       "source": {
-        "source": "github",
-        "repo": "getexcited/stepwarden"
+        "source": "url",
+        "url": "https://github.com/getexcited/stepwarden.git"
       },
       "homepage": "https://github.com/getexcited/stepwarden",
       "repository": "https://github.com/getexcited/stepwarden",
